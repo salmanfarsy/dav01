@@ -6,9 +6,11 @@
     --clr-text: #5882FF;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 body{
-    background-color: ;
+    background-color: var(--clr-bg);
+   
 }
 
 header{
@@ -25,4 +27,87 @@ header{
 }
 header h1{
     padding: 20px;
+}
+
+aside{
+    background-color: var(--clr-text);
+    width: 10%;
+    padding: 20px 0;
+    position: fixed;
+    top: 100px;
+}
+aside a{
+    width: 50%;
+    margin: 1px 60px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background: navy;
+    display: block;
+}
+
+p{
+    background-color: var(--clr-para);
+    padding: 0 10px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    margin: 30px;
+}
+.italic{
+    font-family: cursive;
+    margin-left:50px ;
+    font-size: 14px;
+}
+.bold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.hlits{
+    color: var(--clr-text);
+    font-family: cursive;
+}
+/* p:last-child{
+    margin-top: 30px;
+} */
+article{
+    width: 15%;
+    border: 1px solid navy ;
+    box-shadow: 0 0 1px 2px lightgray;
+}
+article p{
+    background: transparent;
+    margin: 5px;
+    padding: 0;
+    clear: both;
+}
+article img{
+    float: left;
+    padding: 10px;
+}
+article h2{
+    color: white;
+    background: var(--clr-text);
+    font-family: cursive;
+    text-align: right;
+    margin: 10px;
+    padding: 5px;
+}
+article p:last-child{
+    margin-top: 0;
+}
+.box{
+    /* background-color: var(--clr-para); */
+    background-color: red;
+    width: 100%;
+    height: 100px;
+
+}
+footer{
+    background: var(--clr-1);
+    color: white;
+    text-align: center;
+}
+main{
+    position: relative;
 }
